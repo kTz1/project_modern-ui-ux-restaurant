@@ -23,11 +23,11 @@ const Chef = () => (
                 <p className="p__opensans">auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
             </div>
 
-                <div className="app__chef-sign">
-                    <p>Kevin Luo</p>
-                    <p className="p__opensans">Chef & Founder</p>
-                    <img src={images.sign} alt="Sign" />
-                </div>
+            <div className="app__chef-sign">
+                <p>Kevin Luo</p>
+                <p className="p__opensans">Chef & Founder</p>
+                <img src={images.sign} alt="Sign" />
+            </div>
         </div>
     </div>
 );
