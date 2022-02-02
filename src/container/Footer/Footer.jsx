@@ -1,6 +1,5 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
-
 import { images } from '../../constants';
 import { FooterOverlay, Newsletter } from '../../components';
 import './Footer.css';
@@ -20,7 +19,7 @@ const Footer = () => (
             <div className="app__footer-links_logo">
                 <img src={images.gericht} alt="footer_logo" />
                 <p className="p__opensans">"The best way to find yourself is to lose yourself in the service of others.”</p>
-                <img src={images.spoon} alt="spoon_img" style={{ marginTop: '15px' }} />
+                <img src={images.spoon} alt="spoon__img" style={{ marginTop: '15px' }} />
                 <div className="app__footer-links_icons">
                     <FiFacebook />
                     <FiTwitter />

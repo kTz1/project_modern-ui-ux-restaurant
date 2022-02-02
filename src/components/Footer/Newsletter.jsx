@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { SubHeading } from '../../components';
 import './Newsletter.css';
 

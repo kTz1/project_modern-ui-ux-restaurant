@@ -1,6 +1,5 @@
 import React from 'react';
 import { SubHeading } from '../../components'
-
 import { images } from '../../constants';
 import './Header.css';
 
@@ -13,9 +12,8 @@ const Header = () => (
             <button type="button" className="custom__button">Explore Menu</button>
         </div>
         <div className="app__wrapper_img">
-            <img src={images.welcome} />
+            <img src={images.welcome} alt="header-img" />
         </div>
-
     </div>
 );
 
